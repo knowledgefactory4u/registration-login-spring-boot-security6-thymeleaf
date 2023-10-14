@@ -22,7 +22,7 @@ import java.util.stream.Collectors;
 public class UserServiceImpl implements UserService {
 
    private UserRepository userRepository;
-   BCryptPasswordEncoder passwordEncoder;
+   private BCryptPasswordEncoder passwordEncoder;
 
    public UserServiceImpl(UserRepository userRepository, BCryptPasswordEncoder passwordEncoder) {
       super();
